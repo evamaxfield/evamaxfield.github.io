@@ -12,22 +12,22 @@ image: /img/aicsimageio/n-dim-render.png
 ---
 
 ![Single cell projections](../../img/aicsimageio/quilt-catalog-cells.png)
-<sub>Single cells projections produced from [Automated Cell Toolkit](https://github.com/allencellmodeling/actk).</sub>
+<sub>Single cell projections produced from [Automated Cell Toolkit](https://github.com/allencellmodeling/actk).</sub>
 
 This post will be about [AICSImageIO](https://github.com/allencellmodeling/aicsimageio), the work we have already completed, the things coming in the future, and other comments and tidbits along the way. In some ways, this is a rambling version of the ["Mission and Roadmap" documents soon to be added to the AICSImageIO repository](https://github.com/allencellmodeling/aicsimageio/pull/150) so if you prefer to just read those documents, feel free.
 
 ##### In Short
-AICSImageIO aims to provide a **consistent, intuitive, API for reading in or out-of-memory image pixel data and metadata** for the many existing proprietary microscopy file formats, and, an **easy-to-use API for converting from proprietary file formats to an open, common, standard** -- all using either language agnostic or pure Python tooling.
+AICSImageIO aims to provide a **consistent, intuitive, API for reading in or out-of-memory image pixel data and metadata, regardless of location,** for the many existing proprietary microscopy file formats, and, an **easy-to-use API for converting from proprietary file formats to an open, common, standard** -- all using either language agnostic or pure Python tooling.
 
 ##### Background
 When I first started at Allen Cell, I was immediately tossed into reading and writing multi-dimensional volumetric image data -- something I had no prior experience in doing. Image manipulation in programming made _decent_ sense to me in terms of n-dimensional array manipulation, but, I didn't have any idea of the current problems in scalable, robust, and unified image reading and writing.
 
-Prior to Allen Cell, the largest images I had ever interacted with in-memory in programming were _small_ -- a couple of MBs perhaps and all either 2D or 2D RGB (3D). What I would soon learn was that images can get _large_. Really large. On average, the microscopy images that Allen Cell works with are about 400 MBs in size and I think the most common array shape I interacted with was around (7, 75, 624, 924) -- 7 channel, 75 Z plane images. These are large images when compared to what most people interact with on a daily basis but these weren't even close to the upper bound of the sizes of images we could possibly produce, and, most importantly, these images can fit into most workstation's memory. Notably, there was no time-series data in the above "most common" example, in the time-series case for Allen Cell, our files commonly were much larger, usually somewhere in the multi-GB range -- the largest I have seen was 200GB.
+Prior to Allen Cell, the largest images I had ever interacted with in-memory in programming were _small_ -- a couple of MBs perhaps and all either 2D or 2D RGB (3D). What I would soon learn was that images can get _large_. Really large. On average, the microscopy images that Allen Cell works with are about 400 MBs in size and I think the most common array shape I interacted with was around (7, 75, 624, 924) -- 7 channel, 75 Z-stack images. These are large images when compared to what most people interact with on a daily basis but these weren't even close to the upper bound of the sizes of images we could possibly produce, and, most importantly, these images can fit into most workstation's memory. Notably, there was no time-series data in the above "most common" example, in the time-series case for Allen Cell, our files commonly were much larger, usually somewhere in the multi-GB range -- the largest I have seen was 200GB.
 
 ![An image of a cell rendered in napari](../../img/aicsimageio/n-dim-render.png)
 <sub>A three dimensional (ZYX) image of a cell rendered with <a href="https://napari.org">napari</a> with structure, membrane, and DNA channels visible.</sub>
 
-These images also come in a few formats, from proprietary file formats such as `CZI` and `LIF`, to open standards like `OME-TIFF` with each format containing their own metadata schema. This is incredibly important because while the underlying image pixel data is generally all the same structure -- "a bunch of YX planes in some shape or another", the metadata schemas can vary widely and contains important pieces of information such as the channel names, the pixel size, the acquisition setup, etc.
+Images at Allen also come in a few formats, from proprietary file formats such as `CZI` and `LIF`, to open standards like `OME-TIFF` with each format containing their own metadata schema. This is incredibly important because while the underlying image pixel data is generally all the same structure -- "a bunch of YX planes in some shape or another", the metadata schemas can vary widely and contains important pieces of information such as the channel names, the pixel size, the acquisition setup, etc.
 
 So what do you do when you have a scientist who wants to port some analysis code from using one image dataset to another, but, they have a couple of issues:
 
@@ -44,7 +44,7 @@ There are a couple of things to unpack here:
 * How "easy" something is is a bad way to say "how well does the developer specification allow for 'my new cool custom image file format'."
 * Notice, we only mention "reading" a new file format, not writing. We are pretty set on this as we want to "encourage" that the easiest way to share data with others is with a single image writer to common standards.
 
-As previously mentioned, regardless of file format, _most_ formats image pixel data is relatively the same -- "a bunch of YX planes in some shape or another" and generally, when adding support for a new file format to the library we wanted to make that as easy as possible.
+As previously mentioned, regardless of file format, _most_ file formats store image pixel data relatively the same -- "a bunch of YX planes in some shape or another," and generally, when adding support for a new file format to the library we wanted to make that as easy as possible.
 
 > If you provide this image Reader object with a method to read a buffer and return an n-dimensional array with the dimension short-names, we're good.
 
@@ -61,20 +61,20 @@ In this way, we, the developers of AICSImageIO should try to enable access to th
 So, in adding a file format to the library, _sure_, you can just add a Reader that will return the user "just the pixel data" but you should also find a way to read and parse the valuable bits of metadata.
 
 ##### Delayed Image Reading
-So great, we can scale and add readers to the library, and we can encourage those image readers to also read and parse the valuable bits of metadata. What happens when we scale to a multi-hundred GB image? How does the Reader interface change?
+So great, we can scale and add readers to the library, and we can enforce that those image readers also read and parse the valuable bits of metadata. What happens when we scale to a multi-hundred GB image? How does the Reader interface change?
 
 Fortunately for us, there are much smarter people out there that have already worked on "delayed / distributed array handling problems" for much longer than I have and in general, the problem of reading an image into memory is quite similar to creating a delayed array for that same image.
 
 To expand our image reading specification, we simply added a requirement to image readers that requires that they must contain both a function to read the image into memory just like before, but also a function to read YX planes on request (or whatever chunk size they want).
 
-There has been some difficulty getting these delayed arrays to operate exactly as intended, and largely this has admittedly been my over-promising of their value in all situations, but, this does work well as a great solution for expanding the API to have both in-memory and out-of-memory data have the same functional interface.
+There has been some difficulty getting these delayed arrays to operate exactly as intended, and largely this has admittedly been my over-promising of their value in all situations, but, this does work well as a solution for expanding the API to have both in-memory and out-of-memory data have the same functional interface.
 
 ##### Where To Go
 One of the problems of development on libraries like this that I have found is that once we made AICSImageIO 3.0 stable, we had to split our time between fixing user reported bugs, minor reworks to optimize behavior, and etc, versus simply continuing on with the high level goals. That isn't to take away from those activities as they are drastically important in shaping future work as well, it is simply that I have this excitement of adding _even more_ value to the library, to show what all is possible with even more work but keep having to reign that excitement in (just a bit).
 
 Again, in my opinion, the high level goal of AICSImageIO is to:
 
-> provide a **consistent, intuitive, API for reading in or out-of-memory image pixel data and metadata** for the many existing proprietary microscopy file formats, and, an **easy-to-use API for converting from proprietary file formats to an open, common, standard** -- all using either language agnostic or pure Python tooling.
+> provide a **consistent, intuitive, API for reading in or out-of-memory image pixel data and metadata, regardless of location,** for the many existing proprietary microscopy file formats, and, an **easy-to-use API for converting from proprietary file formats to an open, common, standard** -- all using either language agnostic or pure Python tooling.
 
 So we are actively working on adding support for `fsspec` (Filesystem Specification), a Python library that allows for path like handling of local or remote file systems.
 
