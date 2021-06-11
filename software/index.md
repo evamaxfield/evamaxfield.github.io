@@ -18,7 +18,7 @@ eleventyNavigation:
 
 Jackson Maxfield Brown, To Huynh, Isaac Na, Hawk Ticehurst, Katlyn M.F. Greene, Emily Gilles, Madeleine Farrer, Brian Ledbetter, Nic Weber
 _Development Status :: 3 - Alpha_
-[https://github.com/CouncilDataProject/](https://councildataproject.github.io/)
+[https://councildataproject.github.io/](https://councildataproject.github.io/)
 
 _Council Data Project is an open-source project dedicated to providing journalists, activists, researchers, and all members of each community we serve with the tools they need to stay informed and hold their councilmembers accountable. By combining and simplifying sources of information on council meetings and actions, CDP ensures that everyone is empowered to participate in local government. For members of the community looking to stay up-to-date, we aim to make finding relevant meetings as easy as possible. For journalists and activists, our tools enable tracking legislation through the council process, transcript search with timestamped transcripts for review and sharing, full voting records querying, and more. And, for civic technology organizations and municipal government offices, we make all of our tools easy to deploy for your own council._
 
