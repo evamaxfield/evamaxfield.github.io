@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
-title: Learning from Others
+title: Influences
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Learning from Others
-  order: 3
+  key: Influences
+  order: 6
 ---
 
 #### Papers

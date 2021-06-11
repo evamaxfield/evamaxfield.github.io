@@ -2,11 +2,11 @@
   "title": "Jackson Maxfield Brown",
   "url": "https://jacksonmaxfield.github.io",
   "domain": "jacksonmaxfield.github.io",
-  "description": "Bits and bobs about Jackson Maxfield Brown",
+  "description": "Updates on what I am working on -- my research, projects, and more.",
   "genre": "Blog",
   "googleAnalyticsId": "GA ID. Update me",
   "feed": {
-    "subtitle": "Bits and bobs about me.",
+    "subtitle": "Updates on what I am working on -- my research, projects, and more.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://jacksonmaxfield.github.io"
