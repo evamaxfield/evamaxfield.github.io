@@ -21,6 +21,8 @@ Jackson Brown and Nic Weber
 _Workshop on Research Objects - published: 28 August 2019_
 [https://doi.org/10.5281/zenodo.3380592](https://doi.org/10.5281/zenodo.3380592)
 
+![council data project core event pipeline, video to audio to transcript to index](../img/papers/cdp-core-pipeline.png)
+
 _Municipal governments in the USA are often divided between a legislative (city council) and executive (mayoral) branch. These two branches not only differ in their power to govern a municipality, but also in the way their governing activities are organized: executive activities are periodic and random in occurrence, legislative activities are regularly occurring and organized around key events (e.g. committee and subcommittee meetings, expert testimony, public comment, introduction and debate of new legislation, and voting). Further, legislative events are subject to Open Meetings laws at both the State and Federal level - so that citizens can have a transparent record of how officials are performing their elected duties. This openness mandate further requires that the events of any municipal legislature are recorded and published to the web in an openly accessible format. However, many municipal governments lack the time, money, and expertise to provide citizens with well described data beyond a simple audio or video file of a legislative event. The Council Data Project (CDP) is our attempt to provide a platform for adding needed context to event based legislative data. In particular we provide open-source tools for transcribing, indexing, modeling, and publishing legislative event data to the web. Our on-going research is focused on how to package a bundle of event-based digital objects (audio-files, videos, transcripts, votes, etc) along with relevant metadata parameters to facilitate meaningful reuse by researchers._
 
 #### Data Archival
@@ -39,6 +41,8 @@ Jackson Brown and Nic Weber
 _Workshop on Research Objects - published: 16 July 2019_
 [https://doi.org/10.5281/zenodo.3337374](https://doi.org/10.5281/zenodo.3337374)
 
+![workflow of how dataset database breaks down datasets to groups and iota](../img/papers/dsdb.png)
+
 _In the following abstract we describe Dataset-Database (DSDB), an open-source system for handling the provenance, versioning, de-duplication, history, and query of dynamic databases used at the Allen Institute for Cell Science. We present our initial design and deployment of DSDB, the results of this work for computational modeling, and conclude with a discussion of the future work necessary for provisioning data discovery and sharing tools that facilitate transparent reproducible research through provenance aware features._
 
 #### Computational Biology
@@ -48,6 +52,8 @@ _In the following abstract we describe Dataset-Database (DSDB), an open-source s
 Rory Donovan-Maiye, Jackson Brown, Caleb Chan, Liya Ding, Calysta Yan, Nathalie Gaudreault, Julie Theriot, Mary Maleckar, Theo Knijnenburg, Gregory Johnson
 _preprint -- published: 9 June 2021_
 [https://doi.org/10.1101/2021.06.09.447725](https://doi.org/10.1101/2021.06.09.447725)
+
+![cells generated using the integrated cell model using a range of beta values](../img/papers/integrated-cell.png)
 
 _We introduce a framework for end-to-end integrative modeling of 3D single-cell multi-channel fluorescent image data of diverse subcellular structures. We employ stacked conditional β-variational autoencoders to first learn a latent representation of cell morphology, and then learn a latent representation of subcellular structure localization which is conditioned on the learned cell morphology. Our model is flexible and can be trained on images of arbitrary subcellular structures and at varying degrees of sparsity and reconstruction fidelity. We train our full model on 3D cell image data and explore design trade-offs in the 2D setting. Once trained, our model can be used to impute structures in cells where they were not imaged and to quantify the variation in the location of all subcellular structures by generating plausible instantiations of each structure in arbitrary cell geometries. We apply our trained model to a small drug perturbation screen to demonstrate its applicability to new data. We show how the latent representations of drugged cells differ from unperturbed cells as expected by on-target effects of the drugs._
 
