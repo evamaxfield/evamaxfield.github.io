@@ -42,6 +42,7 @@ const CSP = {
       /* Replaced by csp.js plugin */ "HASHES",
       "plausible.io",
     ],
+    ["connect-src", SELF, "plausible.io"],
     // Inline CSS is allowed.
     ["style-src", quote("unsafe-inline")],
     // Images may also come from data-URIs.
