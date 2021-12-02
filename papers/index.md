@@ -15,13 +15,21 @@ eleventyNavigation:
 
 #### Public Interest Technology
 
+##### Council Data Project: Software for Municipal Data Collection, Analysis, and Publication
+
+Jackson Maxfield Brown, To Huynh, Isaac Na, Brian Ledbetter, Hawk Ticehurst, Sarah Liu, Emily Gilles, Katlyn M. F. Greene, Sung Cho, Shak Ragoler, Nicholas Weber
+_Journal of Open Source Software - published: 2 December 2021_
+[https://doi.org/10.21105/joss.03904](https://doi.org/10.21105/joss.03904)
+
+![council data project core event pipeline, video to audio to transcript to index](../img/papers/cdp-core-infra.png)
+
+_Cities, counties, and states throughout the USA are bound by law to archive recordings of public meetings. Most local governments comply with these laws by posting documents, audio, or video recordings online. As there is no set standard for municipal data archives however, parsing and processing such data is typically time consuming and highly dependent on each municipality. Council Data Project (CDP) is a set of open-source tools that improve the accessibility of local government data by systematically collecting, transforming, and re-publishing this data to the web. The data re-published by CDP is packaged and presented within a searchable web application that vastly simplifies the process of finding specific information within the archived data. We envision this project being used by a variety of groups including civic technologists hoping to promote government transparency, researchers focused on public policy, natural language processing, machine learning, or information retrieval and discovery, and many others._
+
 ##### Packaging Municipal Legislative Event Data for Reuse and Exchange
 
 Jackson Brown and Nic Weber
 _Workshop on Research Objects - published: 28 August 2019_
 [https://doi.org/10.5281/zenodo.3380592](https://doi.org/10.5281/zenodo.3380592)
-
-![council data project core event pipeline, video to audio to transcript to index](../img/papers/cdp-core-pipeline.png)
 
 _Municipal governments in the USA are often divided between a legislative (city council) and executive (mayoral) branch. These two branches not only differ in their power to govern a municipality, but also in the way their governing activities are organized: executive activities are periodic and random in occurrence, legislative activities are regularly occurring and organized around key events (e.g. committee and subcommittee meetings, expert testimony, public comment, introduction and debate of new legislation, and voting). Further, legislative events are subject to Open Meetings laws at both the State and Federal level - so that citizens can have a transparent record of how officials are performing their elected duties. This openness mandate further requires that the events of any municipal legislature are recorded and published to the web in an openly accessible format. However, many municipal governments lack the time, money, and expertise to provide citizens with well described data beyond a simple audio or video file of a legislative event. The Council Data Project (CDP) is our attempt to provide a platform for adding needed context to event based legislative data. In particular we provide open-source tools for transcribing, indexing, modeling, and publishing legislative event data to the web. Our on-going research is focused on how to package a bundle of event-based digital objects (audio-files, videos, transcripts, votes, etc) along with relevant metadata parameters to facilitate meaningful reuse by researchers._
 
