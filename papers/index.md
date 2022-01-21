@@ -35,6 +35,16 @@ _Municipal governments in the USA are often divided between a legislative (city 
 
 #### Data Archival
 
+##### DSDB: An Open-Source System for Dataset Versioning & Curation
+
+Jackson Brown and Nic Weber
+_Joint Conference on Digital Libraries - published: 27 September 2021_
+[https://doi.org/10.1109/JCDL52503.2021.00044](https://doi.org/10.1109/JCDL52503.2021.00044)
+
+![workflow of how dataset database breaks down datasets to groups and iota](../img/papers/dsdb.png)
+
+_In the following poster we describe the design and evaluation of DatasetDatabase (DSDB), an open-source system for handling the provenance, versioning, de-duplication, history, and query of dynamic datasets in order to enable verifiable and shareable results - features necessary for fully reproducible computational modeling research. We present empirical work that motivates an initial design and deployment of DSDB, evaluate the results of this work for computational modeling at the Allen Institute for Cell Science, and conclude with a discussion of the future work necessary for provisioning data discovery and sharing tools that facilitate transparent reproducible research through provenance aware features.._
+
 ##### Managing Manifests and Distributing Datasets
 
 Jackson Brown
@@ -43,27 +53,18 @@ _Workshop on Research Objects - published: 30 August 2019_
 
 _A core principal of research is the affordability and ease of reproducing the results found by an experiment and to minimize the challenge of experimental reproducibility, it is common for researchers to share the dataset used to produce the results of an experiment. Methods for managing and distributing these datasets however, are ill-suited for imaging datasets, or more generally: large object datasets, because they commonly resemble a manifest and require additional packaging and organization than their feature set counterparts. Quilt3Distribute (Q3D) is a software application that enables the distribution of manifest style datasets which can be made of up thousands of individual files._
 
-##### DSDB: Reproducible Computational Modeling
-
-Jackson Brown and Nic Weber
-_Workshop on Research Objects - published: 16 July 2019_
-[https://doi.org/10.5281/zenodo.3337374](https://doi.org/10.5281/zenodo.3337374)
-
-![workflow of how dataset database breaks down datasets to groups and iota](../img/papers/dsdb.png)
-
-_In the following abstract we describe Dataset-Database (DSDB), an open-source system for handling the provenance, versioning, de-duplication, history, and query of dynamic databases used at the Allen Institute for Cell Science. We present our initial design and deployment of DSDB, the results of this work for computational modeling, and conclude with a discussion of the future work necessary for provisioning data discovery and sharing tools that facilitate transparent reproducible research through provenance aware features._
-
 #### Computational Biology
 
 ##### A deep generative model of 3D single-cell organization
 
-Rory Donovan-Maiye, Jackson Brown, Caleb Chan, Liya Ding, Calysta Yan, Nathalie Gaudreault, Julie Theriot, Mary Maleckar, Theo Knijnenburg, Gregory Johnson
-_preprint -- published: 9 June 2021_
-[https://doi.org/10.1101/2021.06.09.447725](https://doi.org/10.1101/2021.06.09.447725)
+Rory M. Donovan-Maiye, Jackson M. Brown, Caleb K. Chan, Liya Ding, Calysta Yan, Nathalie Gaudreault, Julie A. Theriot, Mary M. Maleckar, Theo A. Knijnenburg, Gregory R. Johnson
+
+_PLOS Computational Biology -- published: 18 January 2022_
+[https://doi.org/10.1371/journal.pcbi.1009155](https://doi.org/10.1371/journal.pcbi.1009155)
 
 ![cells generated using the integrated cell model using a range of beta values](../img/papers/integrated-cell.png)
 
-_We introduce a framework for end-to-end integrative modeling of 3D single-cell multi-channel fluorescent image data of diverse subcellular structures. We employ stacked conditional β-variational autoencoders to first learn a latent representation of cell morphology, and then learn a latent representation of subcellular structure localization which is conditioned on the learned cell morphology. Our model is flexible and can be trained on images of arbitrary subcellular structures and at varying degrees of sparsity and reconstruction fidelity. We train our full model on 3D cell image data and explore design trade-offs in the 2D setting. Once trained, our model can be used to impute structures in cells where they were not imaged and to quantify the variation in the location of all subcellular structures by generating plausible instantiations of each structure in arbitrary cell geometries. We apply our trained model to a small drug perturbation screen to demonstrate its applicability to new data. We show how the latent representations of drugged cells differ from unperturbed cells as expected by on-target effects of the drugs._
+_We introduce a framework for end-to-end integrative modeling of 3D single-cell multi-channel fluorescent image data of diverse subcellular structures. We employ stacked conditional β-variational autoencoders to first learn a latent representation of cell morphology, and then learn a latent representation of subcellular structure localization which is conditioned on the learned cell morphology. Our model is flexible and can be trained on images of arbitrary subcellular structures and at varying degrees of sparsity and reconstruction fidelity. We train our full model on 3D cell image data and explore design trade-offs in the 2D setting. Once trained, our model can be used to predict plausible locations of structures in cells where these structures were not imaged. The trained model can also be used to quantify the variation in the location of subcellular structures by generating plausible instantiations of each structure in arbitrary cell geometries. We apply our trained model to a small drug perturbation screen to demonstrate its applicability to new data. We show how the latent representations of drugged cells differ from unperturbed cells as expected by on-target effects of the drugs._
 
 ##### Cell states beyond transcriptomics: integrating structural organization and gene expression in hiPSC-derived cardiomyocytes
 
