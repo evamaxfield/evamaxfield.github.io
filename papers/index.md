@@ -15,6 +15,24 @@ eleventyNavigation:
 
 #### Public Interest Technology
 
+##### Councils in Action: Automating the Curation of Municipal Governance Data for Research
+
+Jackson Maxfield Brown and Nicholas Weber
+_in review for ASIS&T 2022 - preprint published: 21 April 2022_
+[https://doi.org/10.48550/arXiv.2204.09110](https://doi.org/10.48550/arXiv.2204.09110)
+
+![Usage of different n-grams over time for all municipal councils covered in the initial release of the Councils In Action dataset](../img/papers/cdp-councils-in-action-split-discussion-trends.png)
+
+_Large scale comparative research into municipal governance is often prohibitively difficult due to a lack of high-quality data. But, recent advances in speech-to-text algorithms and natural language processing has made it possible to more easily collect and analyze data about municipal governments. In this paper, we introduce an open-source platform, the Council Data Project (CDP), to curate novel datasets for research into municipal governance. The contribution of this work is two-fold: 1. We demonstrate that CDP, as an infrastructure, can be used to assemble reliable comparative data on municipal governance; 2. We provide exploratory analysis of three municipalities to show how CDP data can be used to gain insight into how municipal governments perform over time. We conclude by describing future directions for research on and with CDP such as the development of machine learning models for speaker annotation, outline generation, and named entity recognition for improved linked data._
+
+##### Integrative Urban AI to Expand Coverage, Access, and Equity of Urban Data
+
+Bill Howe, Jackson Maxfield Brown, Bin Han, Bernease Herman, Nic Weber, An Yan, Sean Yang, and Yiwei Yang
+_The European Physical Journal Special Topics - published: 9 April 2022_
+[https://doi.org/10.1140/epjs/s11734-022-00475-z](https://doi.org/10.1140/epjs/s11734-022-00475-z)
+
+_We consider the use of AI techniques to expand the coverage, access, and equity of urban data. We aim to enable holistic research on city dynamics, steering AI research attention away from profit-oriented, societally harmful applications (e.g., facial recognition) and toward foundational questions in mobility, participatory governance, and justice. By making available high-quality, multi-variate, cross-scale data for research, we aim to link the macrostudy of cities as complex systems with the reductionist view of cities as an assembly of independent prediction tasks. We identify four research areas in AI for cities as key enablers: interpolation and extrapolation of spatiotemporal data, using NLP techniques to model speech- and text-intensive governance activities, exploiting ontology modeling in learning tasks, and understanding the interaction of fairness and interpretability in sensitive contexts._
+
 ##### Council Data Project: Software for Municipal Data Collection, Analysis, and Publication
 
 Jackson Maxfield Brown, To Huynh, Isaac Na, Brian Ledbetter, Hawk Ticehurst, Sarah Liu, Emily Gilles, Katlyn M. F. Greene, Sung Cho, Shak Ragoler, Nicholas Weber
@@ -77,7 +95,7 @@ _Although some cell types may be defined anatomically or by physiological functi
 ##### Robust integrated intracellular organization of the human iPS cell: where, how much, and how variable?
 
 Viana, et al.
-_preprint -- published: 10 December 2020_
+_preprint published: 10 December 2020_
 [https://doi.org/10.1101/2020.12.08.415562](https://doi.org/10.1101/2020.12.08.415562)
 
 _Despite the intimate link between cell organization and function, the principles underlying intracellular organization and the relation between organization, gene expression and phenotype are not well understood. We address this by creating a benchmark for mean cell organization and the natural range of cell-to-cell variation. This benchmark can be used for comparison to other normal or abnormal cell states. To do this, we developed a reproducible microscope imaging pipeline to generate a high quality dataset of 3D, high-resolution images of over 200,000 live cells from 25 isogenic human induced pluripotent stem cell (hiPSC) lines from the Allen Cell Collection. Each line contains one fluorescently tagged protein, created via endogenous CRISPR/Cas9 gene editing, representing a key cellular structure or organelle. We used these images to develop a new multi-part generalizable analysis approach of the locations, amounts, and variation of the 25 cellular structures. Taking an integrated approach, we found that both the extent to which a structure’s individual location varied (“stereotypy”) and the extent to which the structure localized relative to all the other cellular structures (“concordance”) were robust to a wide range of cell shape variation, from flatter to taller, smaller to larger, or less to more polarized cells. We also found that these cellular structures varied greatly in how their volumes scaled with cell and nuclear size. These analyses create a data-driven set of quantitative rules for the locations, amounts, and variation of 25 cellular structures within the hiPSC as a normal baseline for cell organization._
