@@ -17,7 +17,7 @@ eleventyNavigation:
 
 ##### Councils in Action: Automating the Curation of Municipal Governance Data for Research
 
-Jackson Maxfield Brown and Nicholas Weber
+Eva Maxfield Brown and Nicholas Weber
 _in review for ASIS&T 2022 - preprint published: 21 April 2022_
 [https://doi.org/10.48550/arXiv.2204.09110](https://doi.org/10.48550/arXiv.2204.09110)
 
@@ -27,7 +27,7 @@ _Large scale comparative research into municipal governance is often prohibitive
 
 ##### Integrative Urban AI to Expand Coverage, Access, and Equity of Urban Data
 
-Bill Howe, Jackson Maxfield Brown, Bin Han, Bernease Herman, Nic Weber, An Yan, Sean Yang, and Yiwei Yang
+Bill Howe, Eva Maxfield Brown, Bin Han, Bernease Herman, Nic Weber, An Yan, Sean Yang, and Yiwei Yang
 _The European Physical Journal Special Topics - published: 9 April 2022_
 [https://doi.org/10.1140/epjs/s11734-022-00475-z](https://doi.org/10.1140/epjs/s11734-022-00475-z)
 
@@ -35,7 +35,7 @@ _We consider the use of AI techniques to expand the coverage, access, and equity
 
 ##### Council Data Project: Software for Municipal Data Collection, Analysis, and Publication
 
-Jackson Maxfield Brown, To Huynh, Isaac Na, Brian Ledbetter, Hawk Ticehurst, Sarah Liu, Emily Gilles, Katlyn M. F. Greene, Sung Cho, Shak Ragoler, Nicholas Weber
+Eva Maxfield Brown, To Huynh, Isaac Na, Brian Ledbetter, Hawk Ticehurst, Sarah Liu, Emily Gilles, Katlyn M. F. Greene, Sung Cho, Shak Ragoler, Nicholas Weber
 _Journal of Open Source Software - published: 2 December 2021_
 [https://doi.org/10.21105/joss.03904](https://doi.org/10.21105/joss.03904)
 
@@ -45,7 +45,7 @@ _Cities, counties, and states throughout the USA are bound by law to archive rec
 
 ##### Packaging Municipal Legislative Event Data for Reuse and Exchange
 
-Jackson Brown and Nic Weber
+Eva Brown and Nic Weber
 _Workshop on Research Objects - published: 28 August 2019_
 [https://doi.org/10.5281/zenodo.3380592](https://doi.org/10.5281/zenodo.3380592)
 
@@ -55,7 +55,7 @@ _Municipal governments in the USA are often divided between a legislative (city 
 
 ##### DSDB: An Open-Source System for Dataset Versioning & Curation
 
-Jackson Brown and Nic Weber
+Eva Brown and Nic Weber
 _Joint Conference on Digital Libraries - published: 27 September 2021_
 [https://doi.org/10.1109/JCDL52503.2021.00044](https://doi.org/10.1109/JCDL52503.2021.00044)
 
@@ -65,7 +65,7 @@ _In the following poster we describe the design and evaluation of DatasetDatabas
 
 ##### Managing Manifests and Distributing Datasets
 
-Jackson Brown
+Eva Brown
 _Workshop on Research Objects - published: 30 August 2019_
 [https://doi.org/10.5281/zenodo.3382258](https://doi.org/10.5281/zenodo.3382258)
 
@@ -75,7 +75,7 @@ _A core principal of research is the affordability and ease of reproducing the r
 
 ##### A deep generative model of 3D single-cell organization
 
-Rory M. Donovan-Maiye, Jackson M. Brown, Caleb K. Chan, Liya Ding, Calysta Yan, Nathalie Gaudreault, Julie A. Theriot, Mary M. Maleckar, Theo A. Knijnenburg, Gregory R. Johnson
+Rory M. Donovan-Maiye, Eva M. Brown, Caleb K. Chan, Liya Ding, Calysta Yan, Nathalie Gaudreault, Julie A. Theriot, Mary M. Maleckar, Theo A. Knijnenburg, Gregory R. Johnson
 
 _PLOS Computational Biology -- published: 18 January 2022_
 [https://doi.org/10.1371/journal.pcbi.1009155](https://doi.org/10.1371/journal.pcbi.1009155)

@@ -19,7 +19,7 @@ eleventyNavigation:
 _Open Oakland - 8 February 2022_
 [https://youtu.be/CDoVkufFOHw](https://youtu.be/CDoVkufFOHw)
 
-_Jackson Brown of the Council Data Project joins OpenOakland to share the project's approach to tracking legislative action in local city councils._
+_Eva Maxfield Brown of the Council Data Project joins OpenOakland to share the project's approach to tracking legislative action in local city councils._
 
 _Council Data Project builds tools for municipal government accessibility and transparency. CDP’s tools gather meeting info, generate transcripts, archive all meeting documents, presentations, reports, and make all of these items accessible from their web application, allowing users to link directly to points in a meeting, track the legislative history of a bill, see full voting records, and more. All of CDP’s tools are easily deployable and any contributions help everyone else -- a new feature to the frontend codebase is a new feature made available to every CDP deployment._
 

@@ -1,7 +1,7 @@
 {
-  "title": "Jackson Maxfield Brown",
-  "url": "https://jacksonmaxfield.github.io",
-  "domain": "jacksonmaxfield.github.io",
+  "title": "Eva Maxfield Brown",
+  "url": "https://evamaxfield.github.io",
+  "domain": "evamaxfield.github.io",
   "description": "Updates on what I am working on -- my research, projects, and more.",
   "genre": "Blog",
   "googleAnalyticsId": "GA ID. Update me",
@@ -9,17 +9,17 @@
     "subtitle": "Updates on what I am working on -- my research, projects, and more.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://jacksonmaxfield.github.io"
+    "id": "https://evamaxfield.github.io"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://jacksonmaxfield.github.io/feed/feed.json"
+    "url": "https://evamaxfield.github.io/feed/feed.json"
   },
   "author": {
-    "name": "Jackson Maxfield Brown",
+    "name": "Eva Maxfield Brown",
     "twitterHandle": "jmaxfieldbrown"
   },
   "publisher": {
-    "name": "Jackson Maxfield Brown"
+    "name": "Eva Maxfield Brown"
   }
 }

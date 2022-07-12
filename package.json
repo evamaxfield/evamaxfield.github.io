@@ -23,9 +23,9 @@
     "url": "git://github.com/11ty/eleventy-base-blog.git"
   },
   "bugs": {
-    "url": "https://github.com/jacksonmaxfield/jacksonmaxfield.github.io/issues"
+    "url": "https://github.com/evamaxfield/evamaxfield.github.io/issues"
   },
-  "homepage": "https://jacksonmaxfield.github.io",
+  "homepage": "https://evamaxfield.github.io",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-navigation": "^0.1.3",

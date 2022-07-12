@@ -16,7 +16,7 @@ eleventyNavigation:
 
 ##### Council Data Project
 
-Jackson Maxfield Brown, To Huynh, Isaac Na, Hawk Ticehurst, Katlyn M.F. Greene, Emily Gilles, Madeleine Farrer, Brian Ledbetter, Nic Weber
+Eva Maxfield Brown, To Huynh, Isaac Na, Hawk Ticehurst, Katlyn M.F. Greene, Emily Gilles, Madeleine Farrer, Brian Ledbetter, Nic Weber
 _Development Status :: 3 - Alpha_
 [https://councildataproject.org](https://councildataproject.org)
 
@@ -26,7 +26,7 @@ _Council Data Project is an open-source project dedicated to providing journalis
 
 ##### AICSImageIO
 
-Jackson Maxfield Brown, et al.
+Eva Maxfield Brown, et al.
 _Development Status :: 5 - Production/Stable_
 [https://github.com/AllenCellModeling/aicsimageio](https://github.com/AllenCellModeling/aicsimageio)
 
@@ -34,7 +34,7 @@ _AICSImageIO aims to provide a consistent intuitive API for reading in or out-of
 
 ##### Automated Cell Toolkit (ACTK)
 
-Jackson Maxfield Brown, Rory Donovan-Maiye, et al.
+Eva Maxfield Brown, Rory Donovan-Maiye, et al.
 _Development Status :: 7 - Inactive_
 [https://github.com/AllenCellModeling/actk](https://github.com/AllenCellModeling/actk)
 
