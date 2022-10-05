@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Eva Maxfield Brown",
+  "home_page_url": "https://evamaxfield.github.io",
+  "feed_url": "https://evamaxfield.github.io/feed/feed.json",
+  "description": "Updates on what I am working on -- my research, projects, and more.",
+  "author": {
+    "name": "Eva Maxfield Brown",
+    "url": ""
+  },
+  "items": [{
+      "id": "https://evamaxfield.github.io/posts/dummy/",
+      "url": "https://evamaxfield.github.io/posts/dummy/",
+      "title": "",
+      "content_html": "",
+      "date_published": "2022-10-05T23:14:26.540-00:00"
+    }
+  ]
+}

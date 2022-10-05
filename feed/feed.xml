@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Eva Maxfield Brown</title>
+	<subtitle>Updates on what I am working on -- my research, projects, and more.</subtitle>
+	
+	<link href="https://evamaxfield.github.io/feed/feed.xml" rel="self"/>
+	<link href="https://evamaxfield.github.io"/>
+	<updated>2022-10-05T23:14:26.540-00:00</updated>
+	<id>https://evamaxfield.github.io</id>
+	<author>
+		<name>Eva Maxfield Brown</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title></title>
+		<link href="https://evamaxfield.github.io/posts/dummy/"/>
+		<updated>2022-10-05T23:14:26.540-00:00</updated>
+		<id>https://evamaxfield.github.io/posts/dummy/</id>
+		<content type="html">
+		  
+			
+		</content>
+	</entry>
+</feed>
