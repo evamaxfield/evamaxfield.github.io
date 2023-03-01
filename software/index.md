@@ -7,6 +7,8 @@ eleventyNavigation:
   order: 5
 ---
 
+Please see my [GitHub Profile](https://github.com/evamaxfield) for a complete list of the software I am working on.
+
 ##### Subject Matter
 
 1. [Public Interest Technology](#public-interest-technology)
