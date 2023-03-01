@@ -30,7 +30,7 @@ _Large scale comparative research into municipal governance is often prohibitive
 ##### Council Data Project: Software for Municipal Data Collection, Analysis, and Publication
 
 Eva Maxfield Brown, To Huynh, Isaac Na, Brian Ledbetter, Hawk Ticehurst, Sarah Liu, Emily Gilles, Katlyn M. F. Greene, Sung Cho, Shak Ragoler, Nicholas Weber
-_Journal of Open Source Software - published: 2 December 2021_
+_JOSS - published: 2 December 2021_
 [https://doi.org/10.21105/joss.03904](https://doi.org/10.21105/joss.03904)
 
 ![council data project core event pipeline, video to audio to transcript to index](../img/papers/cdp-core-infra.png)
@@ -38,6 +38,14 @@ _Journal of Open Source Software - published: 2 December 2021_
 _Cities, counties, and states throughout the USA are bound by law to archive recordings of public meetings. Most local governments comply with these laws by posting documents, audio, or video recordings online. As there is no set standard for municipal data archives however, parsing and processing such data is typically time consuming and highly dependent on each municipality. Council Data Project (CDP) is a set of open-source tools that improve the accessibility of local government data by systematically collecting, transforming, and re-publishing this data to the web. The data re-published by CDP is packaged and presented within a searchable web application that vastly simplifies the process of finding specific information within the archived data. We envision this project being used by a variety of groups including civic technologists hoping to promote government transparency, researchers focused on public policy, natural language processing, machine learning, or information retrieval and discovery, and many others._
 
 #### Research Software Engineering and Applied Machine Learning
+
+##### Speakerbox: Few-Show Learning for Speaker Identification with Transformers
+
+Eva Maxfield Brown, To Huynh, Nicholas Weber
+_In review for JOSS_
+[https://raw.githubusercontent.com/openjournals/joss-papers/joss.05132/joss.05132/10.21105.joss.05132.pdf](https://raw.githubusercontent.com/openjournals/joss-papers/joss.05132/joss.05132/10.21105.joss.05132.pdf)
+
+_Automated speaker identification is a modeling challenge for research when large-scale coporara, such as audio recordings or transcripts, are relied upon for evidence (e.g. Journalism, Qualitative Research, Law, etc.). To address current difficulties in training speaker identification models, we propose Speakerbox: a method for few-shot fine-tuning of an audio transformer. Specifically, Speakerbox makes multi-recording, multi-speaker identification model fine-tuning as simple as possible while still fitting an accurate, useful model for application. Speakerbox works by ensuring data are safely stratified by speaker id and held-out by recording id prior to fine-tuning of a pretrained Wav2Vec2 Transformer on a small number of audio examples. We show that with less than an hour of audio-recorded input, Speakerbox can fine-tune a multi-speaker identification model for use in assisting researchers in audio and transcript annotation._
 
 ##### Soft-Search: Two Datasets to Study the Identification and Production of Research Software
 
