@@ -42,15 +42,15 @@ _Cities, counties, and states throughout the USA are bound by law to archive rec
 ##### Speakerbox: Few-Show Learning for Speaker Identification with Transformers
 
 Eva Maxfield Brown, To Huynh, Nicholas Weber
-_In review for JOSS_
-[https://raw.githubusercontent.com/openjournals/joss-papers/joss.05132/joss.05132/10.21105.joss.05132.pdf](https://raw.githubusercontent.com/openjournals/joss-papers/joss.05132/joss.05132/10.21105.joss.05132.pdf)
+_JOSS - published: 20 March 2023_
+[https://doi.org/10.21105/joss.05132](https://doi.org/10.21105/joss.05132)
 
-_Automated speaker identification is a modeling challenge for research when large-scale coporara, such as audio recordings or transcripts, are relied upon for evidence (e.g. Journalism, Qualitative Research, Law, etc.). To address current difficulties in training speaker identification models, we propose Speakerbox: a method for few-shot fine-tuning of an audio transformer. Specifically, Speakerbox makes multi-recording, multi-speaker identification model fine-tuning as simple as possible while still fitting an accurate, useful model for application. Speakerbox works by ensuring data are safely stratified by speaker id and held-out by recording id prior to fine-tuning of a pretrained Wav2Vec2 Transformer on a small number of audio examples. We show that with less than an hour of audio-recorded input, Speakerbox can fine-tune a multi-speaker identification model for use in assisting researchers in audio and transcript annotation._
+_Automated speaker identification is a modeling challenge for research when large-scale corpora, such as audio recordings or transcripts, are relied upon for evidence (e.g. Journalism, Qualitative Research, Law, etc.). To address current difficulties in training speaker identification models, we propose Speakerbox: a method for few-shot fine-tuning of an audio transformer. Specifically, Speakerbox makes multi-recording, multi-speaker identification model fine-tuning as simple as possible while still fitting an accurate, useful model for application. Speakerbox works by ensuring data are safely stratified by speaker id and held-out by recording id prior to fine-tuning of a pretrained speaker identification transformer on a small number of audio examples. We show that with less than an hour of audio-recorded input, Speakerbox can fine-tune a multi-speaker identification model for use in assisting researchers in audio and transcript annotation._
 
 ##### Soft-Search: Two Datasets to Study the Identification and Production of Research Software
 
 Eva Maxfield Brown, Lindsey Schwartz, Richard Lewei Huang, Nicholas Weber
-_In review for JCDL 2023 - pre-print published: 27 February 2023_
+_Accepted by JCDL 2023 - pre-print published: 27 February 2023_
 [https://doi.org/10.48550/arXiv.2302.14177](https://doi.org/10.48550/arXiv.2302.14177)
 
 ![perecent of awards which likely produce software as NSF award duration increases](../img/papers/soft-search-award-duration.png)
