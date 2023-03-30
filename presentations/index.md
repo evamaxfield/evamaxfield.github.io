@@ -14,6 +14,13 @@ eleventyNavigation:
 
 #### Public Interest Technology
 
+##### Guest Lecture: Council Data Project and Computational Building Blocks for Municipal Political Scholarship
+
+_Brian Keegan's (CU Boulder) Information Expostion - 23 February 2023_
+[Google Drive Link](https://drive.google.com/file/d/1TFMhGjaF6PJvLCczwrZvXfm4NHy6wy_k/view?usp=share_link)
+
+_A intro for undergraduate students as to why municipal legislative data is hard to find, parse, and process and some of the techniques Council Data Project is using to do so._
+
 ##### Council Data Project and Centralization in Civic Technology Projects
 
 _Open Oakland - 8 February 2022_
