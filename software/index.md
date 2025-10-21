@@ -11,8 +11,32 @@ Please see my [GitHub Profile](https://github.com/evamaxfield) for a complete li
 
 ##### Subject Matter
 
+1. [Science of Scientific Software](#science-of-scientific-software)
 1. [Public Interest Technology](#public-interest-technology)
 1. [Computational Biology](#computational-biology)
+
+#### Science of Scientific Software
+
+##### Research Software Graph (rs-graph)
+
+_Development Status :: 4 - Beta_
+[https://github.com/evamaxfield/rs-graph](https://github.com/evamaxfield/rs-graph)
+
+_RS-Graph is an open-source project which enables the collection, processing, and standardization of metadata, bibliometric information, and computed statistics for scientific publications and their associated research software/code repositories. The data produced from the current version of rs-graph includes document information (DOI, title, publication date, cited-by-count, topics/fields/domains), researcher details (name, works count, h-index), document-contributors (author position, corresponding author status), repositories (owner, name, description, stargazers count, created datetime, README content), developer accounts (username, name, email), repository-contributors (links between repositories and developer accounts), document-repository-links (links between documents and their associated source-code repositories), and researcher-developer-account-links (links between researchers and their associated developer accounts)._
+
+##### Scientific Software Models (sci-soft-models)
+
+_Development Status :: 4 - Beta_
+[https://github.com/evamaxfield/sci-soft-models](https://github.com/evamaxfield/sci-soft-models)
+
+_Sci-Soft-Models is an open-source project which provides simple access to computational predictive models relevant to scientists interested in large-scale examinations of scientific software production. Currently the library includes modules for using the "Author-Developer Account Matching Model" described and used in [Code Contribution and Credit in Science](https://doi.org/10.48550/arXiv.2510.16242) and an updated and greatly improved version of the "Soft-Search" model which predicts software production from NSF award information originally described in [Soft-Search: Two Datasets to Study the Identification and Production of Research Software](https://doi.org/10.1109/JCDL57899.2023.00040)._
+
+##### AWS-GROBID
+
+[https://github.com/evamaxfield/aws-grobid](https://github.com/evamaxfield/aws-grobid)
+
+_Development Status :: 4 - Beta_
+_AWS-GROBID is a small open-source project which provides simple utilities for quickly creating and destroying GROBID servers on AWS compute. [GROBID servers](https://grobid.readthedocs.io/en/latest/) enable large-scale processing of scientific publication PDFs, and, relevant to scientific software, enable the large-scale extraction of [software mentions from scientific publication PDFs](https://github.com/softcite/software-mentions)._
 
 #### Public Interest Technology
 
@@ -26,20 +50,10 @@ _Council Data Project is an open-source project dedicated to providing journalis
 
 #### Computational Biology
 
-##### AICSImageIO
+##### AICSImageIO / BioIO
 
 Eva Maxfield Brown, et al.
 _Development Status :: 5 - Production/Stable_
-[https://github.com/AllenCellModeling/aicsimageio](https://github.com/AllenCellModeling/aicsimageio)
+[https://github.com/AllenCellModeling/aicsimageio](https://github.com/AllenCellModeling/aicsimageio) / [https://github.com/bioio-devs/bioio](https://github.com/bioio-devs/bioio)
 
 _AICSImageIO aims to provide a consistent intuitive API for reading in or out-of-memory image pixel data and metadata for the many existing proprietary microscopy file formats, and, an easy-to-use API for converting from proprietary file formats to an open, common, standard – all using either language agnostic or pure Python tooling._
-
-##### Automated Cell Toolkit (ACTK)
-
-Eva Maxfield Brown, Rory Donovan-Maiye, et al.
-_Development Status :: 7 - Inactive_
-[https://github.com/AllenCellModeling/actk](https://github.com/AllenCellModeling/actk)
-
-![workflow diagram showing how data was combined and processed prior to analysis (the ACTK pipeline)](../img/software/actk.png)
-
-_A pipeline to process field-of-view (FOV) microscopy images and generate data and render-ready products for the cells in each field. Of note, the data produced by this pipeline can be used directly with the [Integrated Cell Model](https://doi.org/10.1101/2021.06.09.447725)._
